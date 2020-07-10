@@ -18,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chap04/Intelligent-Service/src/intelligent_service.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1273">
-              <caret line="161" lean-forward="true" selection-start-line="161" selection-end-line="161" />
+            <state relative-caret-position="191">
+              <caret line="137" column="9" lean-forward="true" selection-start-line="137" selection-start-column="9" selection-end-line="137" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -46,8 +46,8 @@
   <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="54" />
     <option name="y" value="-8" />
-    <option name="width" value="1318" />
-    <option name="height" value="784" />
+    <option name="width" value="1874" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -66,27 +66,7 @@
             <path>
               <item name="src_code" type="b2602c69:ProjectViewProjectNode" />
               <item name="src_code" type="462c0819:PsiDirectoryNode" />
-              <item name="chap04" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="src_code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="src_code" type="462c0819:PsiDirectoryNode" />
-              <item name="chap04" type="462c0819:PsiDirectoryNode" />
-              <item name="Intelligent-Service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="src_code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="src_code" type="462c0819:PsiDirectoryNode" />
-              <item name="chap04" type="462c0819:PsiDirectoryNode" />
-              <item name="Intelligent-Service" type="462c0819:PsiDirectoryNode" />
-              <item name="preprocess_data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="src_code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="src_code" type="462c0819:PsiDirectoryNode" />
-              <item name="chap04" type="462c0819:PsiDirectoryNode" />
-              <item name="Intelligent-Service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chap02" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -96,7 +76,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="G:/Download/Moral-Case-Texts-Pretreatment" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -176,22 +156,23 @@
       <option name="presentableId" value="Default" />
       <updated>1593078916995</updated>
       <workItem from="1593078919680" duration="8156000" />
-      <workItem from="1594017032833" duration="1498000" />
+      <workItem from="1594017032833" duration="4568000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9654000" />
+    <option name="totallyTimeSpent" value="12724000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1874" height="1096" extended-state="7" />
+    <frame x="54" y="-8" width="1318" height="784" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13671444" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19713831" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2037422" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30153847" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -245,8 +226,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chap04/Intelligent-Service/src/intelligent_service.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1273">
-          <caret line="161" lean-forward="true" selection-start-line="161" selection-end-line="161" />
+        <state relative-caret-position="191">
+          <caret line="137" column="9" lean-forward="true" selection-start-line="137" selection-start-column="9" selection-end-line="137" selection-end-column="9" />
         </state>
       </provider>
     </entry>
