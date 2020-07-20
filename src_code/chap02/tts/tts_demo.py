@@ -13,8 +13,7 @@ from urllib.parse import quote_plus
 API_KEY = 'o4j7S1PUSsUgbc6bw2GbEIMA'
 SECRET_KEY = 'OvugM7Liw8rlTF1C6luhOd3WMyBiVxrR'
 
-# 待转换的文本信息
-TEXT = "您好，有什么可以帮助您的吗？"
+
 
 # 参数设置
 # 发音人选择, 基础音库：0为度小美，1为度小宇，3为度逍遥，4为度丫丫，
@@ -57,7 +56,7 @@ def fetch_token():
     获取token
     :return:
     '''
-    print("fetch token begin")
+    # print("fetch token begin")
     # 设置token参数信息
     params = {'grant_type': 'client_credentials',
               'client_id': API_KEY,
@@ -74,13 +73,13 @@ def fetch_token():
         result_str = err.read()
     result_str = result_str.decode()
 
-    print(result_str)
+    # print(result_str)
     result = json.loads(result_str)
-    print(result)
+    # print(result)
     if ('access_token' in result.keys() and 'scope' in result.keys()):
         if not SCOPE in result['scope'].split(' '):
             raise DemoError('scope is not correct')
-        print('SUCCESS WITH TOKEN: %s ; EXPIRES IN SECONDS: %s' % (result['access_token'], result['expires_in']))
+        # print('SUCCESS WITH TOKEN: %s ; EXPIRES IN SECONDS: %s' % (result['access_token'], result['expires_in']))
         return result['access_token']
     else:
         raise DemoError('MAYBE API_KEY or SECRET_KEY not correct: access_token or scope not found in token response')
@@ -88,18 +87,19 @@ def fetch_token():
 
 """  TOKEN end """
 
-if __name__ == '__main__':
+
+def tts(TEXT):
     # 获取token
     token = fetch_token()
     # 此处TEXT需要两次urlencode
     tex = quote_plus(TEXT)
-    print(tex)
+    # print(tex)
     # lan ctp 固定参数
     params = {'tok': token, 'tex': tex, 'per': PER, 'spd': SPD, 'pit': PIT, 'vol': VOL, 'aue': AUE, 'cuid': CUID,
               'lan': 'zh', 'ctp': 1}
     # 对参数进行编码
     data = urlencode(params)
-    print('test on Web Browser' + TTS_URL + '?' + data)
+    # print('test on Web Browser' + TTS_URL + '?' + data)
     # 获取请求返回结果
     req = Request(TTS_URL, data.encode('utf-8'))
     has_error = False
@@ -123,4 +123,10 @@ if __name__ == '__main__':
         result_str = str(result_str, 'utf-8')
         print("tts api  error:" + result_str)
 
-    print("result saved as :" + save_file)
+    # print("result saved as :" + save_file)
+
+
+if __name__ == '__main__':
+    # 待转换的文本信息
+    TEXT = "您好，有什么可以帮助您的吗？"
+    tts(TEXT)

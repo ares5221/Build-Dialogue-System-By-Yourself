@@ -40,7 +40,7 @@ def getTulingResponse(msg):
     r = requests.post(api, data=dat).json()
     # 对话返回信息
     mesage = r['results'][0]['values']['text']
-    print('Sys: ', r['results'][0]['values']['text'])
+    print('系统回复: ', r['results'][0]['values']['text'])
     return mesage
 
 

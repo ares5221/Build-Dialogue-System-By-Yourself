@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 # _*_ coding:utf-8 _*_
-
 import sys
 import json
 import base64
@@ -16,30 +15,12 @@ timer = time.perf_counter
 API_KEY = 'o4j7S1PUSsUgbc6bw2GbEIMA'
 SECRET_KEY = 'OvugM7Liw8rlTF1C6luhOd3WMyBiVxrR'
 
-# 待识别的音频文件
-AUDIO_FILE = './audio/16k.pcm'  # 支持 pcm/wav/amr 格式
-
-# 以下为参数设置
-# 文件格式
-FORMAT = AUDIO_FILE[-3:]
-
-CUID = '123456PYTHON'
-
-# 采样率
-RATE = 16000  # 固定值
-
-# 1537 表示识别普通话，使用输入法模型。根据文档填写PID，选择语言及识别模型
-DEV_PID = 1537
-
-# asr服务地址信息
-ASR_URL = 'http://vop.baidu.com/server_api'
-
 # 有此scope表示有asr能力，没有请在网页里勾选，非常旧的应用可能没有
 SCOPE = 'audio_voice_assistant_get'
 
 
 class DemoError(Exception):
-    print('error')
+    pass
 
 
 """  TOKEN start """
@@ -71,10 +52,10 @@ def fetch_token():
     result = json.loads(result_str)
     # 校验token结果是否正确
     if ('access_token' in result.keys() and 'scope' in result.keys()):
-        print(SCOPE)
+        # print(SCOPE)
         if SCOPE and (not SCOPE in result['scope'].split(' ')):  # SCOPE = False 忽略检查
             raise DemoError('scope is not correct')
-        print('SUCCESS WITH TOKEN: %s  EXPIRES IN SECONDS: %s' % (result['access_token'], result['expires_in']))
+        # print('SUCCESS WITH TOKEN: %s  EXPIRES IN SECONDS: %s' % (result['access_token'], result['expires_in']))
         return result['access_token']
     else:
         raise DemoError('MAYBE API_KEY or SECRET_KEY not correct: access_token or scope not found in token response')
@@ -82,7 +63,23 @@ def fetch_token():
 
 """  TOKEN end """
 
-if __name__ == '__main__':
+
+def asr(AUDIO_FILE):
+    # 以下为参数设置
+    # 文件格式
+    FORMAT = AUDIO_FILE[-3:]
+
+    CUID = '123456PYTHON'
+
+    # 采样率
+    RATE = 16000  # 固定值
+
+    # 1537 表示识别普通话，使用输入法模型。根据文档填写PID，选择语言及识别模型
+    DEV_PID = 1537
+
+    # asr服务地址信息
+    ASR_URL = 'http://vop.baidu.com/server_api'
+
     # 获取token
     token = fetch_token()
     # 获取要识别的音频文件
@@ -113,15 +110,24 @@ if __name__ == '__main__':
     try:
         begin = timer()
         f = urlopen(req)
-        result_str = f.read()
+        result_json = f.read()
         # 计算服务响应实践
-        print("Request time cost %f" % (timer() - begin))
+        # print("Request time cost %f" % (timer() - begin))
     except URLError as err:
         print('asr http response http code : ' + str(err.code))
-        result_str = err.read()
+        result_json = err.read()
     # 获取语音识别结果
-    result_str = str(result_str, 'utf-8')
-    print(result_str)
+    result_str = str(result_json, 'utf-8')
+    # print(result_strresult_str)
     # 保存语音识别结果
     with open("result.txt", "w") as of:
         of.write(result_str)
+    result_data = json.loads(result_json)['result'][0]
+    return result_data
+
+
+if __name__ == '__main__':
+    # 待识别的音频文件
+    AUDIO_FILE = './audio/16k.pcm'  # 支持 pcm/wav/amr 格式
+    res = asr(AUDIO_FILE)
+    print(res)
