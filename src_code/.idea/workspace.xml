@@ -22,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chap02/asr-demo/asr_demo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-542">
-              <caret line="87" column="10" lean-forward="true" selection-start-line="87" selection-start-column="10" selection-end-line="87" selection-end-column="10" />
+            <state relative-caret-position="296">
+              <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
               <folding>
                 <element signature="e#16#26#0" expanded="true" />
               </folding>
@@ -34,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chap02/tts-demo/tts_demo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="94" column="26" lean-forward="true" selection-start-line="94" selection-start-column="26" selection-end-line="94" selection-end-column="26" />
+            <state relative-caret-position="73">
+              <caret line="92" column="25" selection-start-line="92" selection-start-column="25" selection-end-line="92" selection-end-column="25" />
               <folding>
                 <element signature="e#15#25#0" expanded="true" />
               </folding>
@@ -50,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/chap02/dialogue_demo/dialogue_demo.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="40">
-              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
             </state>
           </provider>
         </entry>
@@ -69,6 +69,7 @@
       <find>filePath</find>
       <find>DemoError</find>
       <find>DEV_PID</find>
+      <find>API_KEY</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -91,10 +92,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="76" />
-    <option name="width" value="1216" />
-    <option name="height" value="766" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="54" />
+    <option name="y" value="-8" />
+    <option name="width" value="1874" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -119,12 +121,6 @@
               <item name="src_code" type="462c0819:PsiDirectoryNode" />
               <item name="chap02" type="462c0819:PsiDirectoryNode" />
               <item name="asr-demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="src_code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="src_code" type="462c0819:PsiDirectoryNode" />
-              <item name="chap02" type="462c0819:PsiDirectoryNode" />
-              <item name="tts-demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="src_code" type="b2602c69:ProjectViewProjectNode" />
@@ -312,23 +308,23 @@
       <workItem from="1593078919680" duration="8156000" />
       <workItem from="1594017032833" duration="5896000" />
       <workItem from="1594698007474" duration="593000" />
-      <workItem from="1594977979623" duration="11948000" />
+      <workItem from="1594977979623" duration="13279000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26593000" />
+    <option name="totallyTimeSpent" value="27924000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="76" y="0" width="1216" height="766" extended-state="0" />
+    <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21799308" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13891952" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32911393" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.346519" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22765073" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -449,7 +445,7 @@
     <entry file="file://$PROJECT_DIR$/chap02/dialogue_demo/dialogue_demo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
         </state>
       </provider>
     </entry>
@@ -461,22 +457,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chap02/asr-demo/asr_demo.py">
+    <entry file="file://$PROJECT_DIR$/chap02/tts-demo/tts_demo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-542">
-          <caret line="87" column="10" lean-forward="true" selection-start-line="87" selection-start-column="10" selection-end-line="87" selection-end-column="10" />
+        <state relative-caret-position="73">
+          <caret line="92" column="25" selection-start-line="92" selection-start-column="25" selection-end-line="92" selection-end-column="25" />
           <folding>
-            <element signature="e#16#26#0" expanded="true" />
+            <element signature="e#15#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chap02/tts-demo/tts_demo.py">
+    <entry file="file://$PROJECT_DIR$/chap02/asr-demo/asr_demo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="94" column="26" lean-forward="true" selection-start-line="94" selection-start-column="26" selection-end-line="94" selection-end-column="26" />
+        <state relative-caret-position="296">
+          <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
           <folding>
-            <element signature="e#15#25#0" expanded="true" />
+            <element signature="e#16#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
