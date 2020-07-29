@@ -28,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/chap02/main.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
-              <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+              <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
               <folding>
                 <element signature="e#45#73#0" expanded="true" />
               </folding>
@@ -49,7 +49,7 @@
         <entry file="file://$PROJECT_DIR$/chap03/hamming-distnce.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
-              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -152,11 +152,6 @@
             <path>
               <item name="src_code" type="b2602c69:ProjectViewProjectNode" />
               <item name="src_code" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="src_code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="src_code" type="462c0819:PsiDirectoryNode" />
-              <item name="chap03" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -523,7 +518,7 @@
     <entry file="file://$PROJECT_DIR$/chap02/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
           <folding>
             <element signature="e#45#73#0" expanded="true" />
           </folding>
@@ -540,7 +535,7 @@
     <entry file="file://$PROJECT_DIR$/chap03/hamming-distnce.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>
