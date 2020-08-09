@@ -128,6 +128,6 @@ def asr(AUDIO_FILE):
 
 if __name__ == '__main__':
     # 待识别的音频文件
-    AUDIO_FILE = './audio/16k.pcm'  # 支持 pcm/wav/amr 格式
+    AUDIO_FILE = './audio/166k.pcm'  # 支持 pcm/wav/amr 格式
     res = asr(AUDIO_FILE)
     print(res)
