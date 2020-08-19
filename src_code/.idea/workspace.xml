@@ -35,7 +35,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chap06/movie_qa_with_KG/movie_QA_with_KQ/code.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
+            <state relative-caret-position="285">
               <caret line="17" column="36" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="36" />
               <folding>
                 <element signature="e#137#147#0" expanded="true" />
@@ -46,9 +46,7 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chap06/movie_qa_with_KG/movie_QA_with_KQ/preprocess_data.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-741" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
@@ -135,7 +133,7 @@
   <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1380" />
+    <option name="width" value="1318" />
     <option name="height" value="784" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -359,23 +357,24 @@
       <workItem from="1594017032833" duration="5896000" />
       <workItem from="1594698007474" duration="593000" />
       <workItem from="1594977979623" duration="27067000" />
-      <workItem from="1596901654627" duration="11498000" />
+      <workItem from="1596901654627" duration="12097000" />
+      <workItem from="1597819792071" duration="572000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53210000" />
+    <option name="totallyTimeSpent" value="54381000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1874" height="1096" extended-state="7" />
+    <frame x="-8" y="-8" width="1318" height="784" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15766263" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23131956" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3276923" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49944875" visible="true" weight="0.3024948" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49944875" visible="true" weight="0.4476923" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -487,13 +486,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chap03/tfidf.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/chap03/tfidf.txt" />
     <entry file="file://$PROJECT_DIR$/chap03/cal_tfidf.py" />
     <entry file="file://$PROJECT_DIR$/chap03/similarity_by_char/edit_distance.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -522,16 +515,7 @@
     <entry file="file://$PROJECT_DIR$/chap03/similarity_by_char/stopwords.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/chap03/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" selection-start-line="7" selection-end-line="30" selection-end-column="20" />
-          <folding>
-            <element signature="e#46#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/chap03/utils.py" />
     <entry file="file://$PROJECT_DIR$/chap03/similarity_by_semantic/data/test_pointwise_data">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -639,7 +623,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chap06/movie_qa_with_KG/movie_QA_with_KQ/code.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="285">
           <caret line="17" column="36" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="36" />
           <folding>
             <element signature="e#137#147#0" expanded="true" />
@@ -648,9 +632,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chap06/movie_qa_with_KG/movie_QA_with_KQ/preprocess_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-741" />
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/chap06/movie_qa_with_KG/movie_QA_with_KQ/query.py">
       <provider selected="true" editor-type-id="text-editor">
