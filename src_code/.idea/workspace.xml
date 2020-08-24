@@ -130,11 +130,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1318" />
-    <option name="height" value="784" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="79" />
+    <option name="y" value="2" />
+    <option name="width" value="1230" />
+    <option name="height" value="773" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -142,6 +142,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -179,7 +180,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -359,17 +359,19 @@
       <workItem from="1594977979623" duration="27067000" />
       <workItem from="1596901654627" duration="12097000" />
       <workItem from="1597819792071" duration="572000" />
+      <workItem from="1597890727252" duration="579000" />
+      <workItem from="1597938131145" duration="584000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54381000" />
+    <option name="totallyTimeSpent" value="55544000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1318" height="784" extended-state="7" />
+    <frame x="-8" y="-8" width="1318" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23131956" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23926868" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
