@@ -4,6 +4,8 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/chap02" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/chap03" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chap06/Movie-KBQA" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chap06/Movie-KBQA/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

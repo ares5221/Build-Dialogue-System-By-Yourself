@@ -130,6 +130,8 @@ class Question():
     def query_template(self):
         # 调用问题模板类中的获取答案的方法
         try:
+            print(self.pos_quesiton,'#######')
+            print(self.question_template_id_str,'#######')
             answer=self.questiontemplate.get_question_answer(self.pos_quesiton,self.question_template_id_str)
         except:
             answer="我也还不知道！"

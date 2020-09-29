@@ -1,13 +1,7 @@
 #-*- coding: UTF-8 -*-
-# @Time    : 2019/4/14 13:21
-# @Author  : xiongzongyang
-# @Site    : 
-# @File    : question_template.py
-# @Software: PyCharm
+
 
 '''
-
-
 
 9:nnt 参演评分 小于 x
 10:nnt 电影类型
@@ -52,7 +46,6 @@ class QuestionTemplate():
         self.template_str2list=str(template_str).split()
 
         # 预处理问题
-        print(question,'%%%%%%%%%%%%')
         question_word,question_flag=[],[]
         for one in question:
             word, flag = one.split("/")
