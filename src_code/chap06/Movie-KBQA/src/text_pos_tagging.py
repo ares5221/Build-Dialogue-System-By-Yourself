@@ -32,7 +32,7 @@ def jieba_pos_tagging(text):
         text_pos.append(str(flag).strip())
     # 判断分词结果与词性分析结果是否匹配
     assert len(text_pos) == len(text_word)
-    print('词性标注结果：', result)
+    # print('词性标注结果：', result)
     return result, text_word, text_pos
 
 

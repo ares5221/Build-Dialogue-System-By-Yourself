@@ -82,7 +82,7 @@ class Question_classify():
         test_data = self.tv.transform(question).toarray()
         # 对文本向量进行预测
         y_predict = self.model.predict(test_data)[0]
-        print("predict type:", y_predict)
+        # print("predict type:", y_predict)
         return y_predict
 
 

@@ -44,10 +44,10 @@ class QuestionTemplate():
         # 连接数据库
         self.graph = Query()
         # 测试数据库是否连接成功
-        result=self.graph.run("match (m:Movie)-[]->() where m.title='卧虎藏龙' return m.rating")
-        if result:
-            print('图数据库连接成功，查询结果如下：',result)
-        exit()
+        result = self.graph.run("match (m:Movie)-[]->() where m.title='卧虎藏龙' return m.rating")
+        # if result:
+        #     print('图数据库连接成功，查询结果如下：',result)
+        # exit()
 
     def get_question_answer(self, question, template):
         # 判定问题模板的格式是否正确
@@ -198,7 +198,7 @@ class QuestionTemplate():
     def get_actorname_movie_list(self, actorname):
         # 查询电影名称
         cql = f"match(n:Person)-[]->(m:Movie) where n.name='{actorname}' return m.title"
-        print(cql)
+        # print(cql)
         answer = self.graph.run(cql)
         answer_set = set(answer)
         answer_list = list(answer_set)
@@ -275,7 +275,7 @@ class QuestionTemplate():
     def get_actor_birthday(self):
         actor_name = self.get_name('nr')
         cql = f"match(n:Person)-[]->() where n.name='{actor_name}' return n.birth"
-        print(cql)
+        # print(cql)
         answer = self.graph.run(cql)[0]
         final_answer = actor_name + "的生日是" + answer + "。"
         return final_answer

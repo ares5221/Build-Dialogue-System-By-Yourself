@@ -9,12 +9,10 @@ from query_template import query_template
 
 def main():
     # 获取用户输入
-    # user_input = input('您好，请输入您要查询的电影相关信息，如李连杰演过什么电影？：')
+    user_input = input('您好，请输入您要查询的电影相关信息，如李连杰演过什么电影？：')
     # print(user_input)
-    question = "章子怡演过多少部电影"
-    question = "卧虎藏龙的类型是什么"
     # 文本预处理
-    clean_question = text_processing(question)
+    clean_question = text_processing(user_input)
     # 基于规则的问答回复
     is_active_rule_base, sys_reply = rule_based_reply(clean_question)
     if is_active_rule_base:

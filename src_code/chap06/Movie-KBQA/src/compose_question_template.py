@@ -18,14 +18,14 @@ def get_question_template(text_word, text_pos):
             text_pos[idx] = item + "ed"
     # 将用户输入问题转换为抽象问题
     str_question = "".join(text_word)
-    print("抽象问题为：", str_question)
+    # print("抽象问题为：", str_question)
     # 通过预训练的分类器获取抽象问题相应的模板编号
     classify_model = Question_classify()
     question_template_num = classify_model.predict(str_question)
-    print("抽象问题相应模板编号：", question_template_num)
+    # print("抽象问题相应模板编号：", question_template_num)
     tmp = get_question_mode()
     question_template = tmp[question_template_num]
-    print("问题模板：", question_template)
+    # print("问题模板：", question_template)
     question_template_id_str = str(question_template_num) + "\t" + question_template
     return question_template_id_str
 

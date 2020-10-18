@@ -14,7 +14,7 @@ def text_processing(text):
     # 过滤非中文字符
     pattern = re.compile("[^\u4e00-\u9fa5]")
     clean_text = re.sub(pattern, '', clean_text)
-    print(clean_text)
+    # print(clean_text)
     return clean_text
 
 
@@ -37,4 +37,5 @@ def clean_punctuation(text):
 
 if __name__ == '__main__':
     # test
-    text_processing('测试用户输入')
+    user_input = '你好，请问电影卧虎藏龙的评分是多少？'
+    text_processing(user_input)
