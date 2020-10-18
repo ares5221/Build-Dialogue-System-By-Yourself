@@ -103,8 +103,8 @@ def getfilelist(root_path):
             filepath = os.path.join(root, name)
             file_name.append(name)
             file_path_list.append(filepath)
-    print('文件名信息：', file_name)
-    print('文件路径信息：', file_path_list)
+    # print('文件名信息：', file_name)
+    # print('文件路径信息：', file_path_list)
     return file_path_list
 
 

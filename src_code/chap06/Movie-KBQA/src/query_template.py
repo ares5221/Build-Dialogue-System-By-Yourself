@@ -9,6 +9,5 @@ def query_template(text_pos,question_template_id_str):
         questiontemplate = QuestionTemplate()
         answer = questiontemplate.get_question_answer(text_pos,question_template_id_str)
     except:
-        answer = "我也还不知道！"
-    # answer = self.questiontemplate.get_question_answer(self.pos_quesiton, self.question_template_id_str)
+        answer = "对不起，暂时无法回答该问题！"
     return answer

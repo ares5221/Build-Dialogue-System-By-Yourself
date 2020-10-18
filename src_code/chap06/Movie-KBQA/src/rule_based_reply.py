@@ -6,7 +6,7 @@ import random
 
 def rule_based_reply(user_input):
     '''
-    对用户的输入信息做基于规则的回复
+    对用户的输入信息判定是否需要基于规则进行回复
     :param user_input:
     :return:
     '''

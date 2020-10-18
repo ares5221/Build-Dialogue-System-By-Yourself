@@ -12,6 +12,7 @@ def main():
     # user_input = input('您好，请输入您要查询的电影相关信息，如李连杰演过什么电影？：')
     # print(user_input)
     question = "章子怡演过多少部电影"
+    question = "卧虎藏龙的类型是什么"
     # 文本预处理
     clean_question = text_processing(question)
     # 基于规则的问答回复
@@ -21,11 +22,12 @@ def main():
     else:
         # 词性标注获取关键信息及句子模板分类
         result, text_word, text_pos = jieba_pos_tagging(clean_question)
+        # 获取问题模板信息
         question_template_id_str = get_question_template(text_word, text_pos)
-        print(text_pos, question_template_id_str,'$$$$$$$$$')
-        #5 查询数据库
-        answer = query_template(result,question_template_id_str)
-        #6 答案生成模板
+        # 查询图数据库，根据答案生成模板获取答案
+        answer = query_template(result, question_template_id_str)
         print(answer)
+
+
 if __name__ == '__main__':
     main()
