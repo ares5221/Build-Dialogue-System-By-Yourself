@@ -4,11 +4,12 @@ from py2neo import Graph
 
 class AnswerSearcher:
     def __init__(self):
-        self.g = Graph(
-            host="172.24.30.243",
-            http_port=7474,
-            user="neo4j",
-            password="12345")
+        # self.g = Graph(
+        #     host="172.24.30.243",
+        #     http_port=7474,
+        #     user="neo4j",
+        #     password="12345")
+        self.g = Graph("bolt://localhost:11008")
         self.num_limit = 20
 
     '''执行cypher查询，并返回相应结果'''
