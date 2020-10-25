@@ -1,4 +1,5 @@
-# coding: utf-8
+#!/usr/bin/env python
+# _*_ coding:utf-8 _*_
 
 
 #from question_classifier import *
@@ -6,8 +7,11 @@ from question_parser import *
 from answer_search import *
 from question_analysis import *
 
-'''问答类'''
+
 class ChatBotGraph:
+    '''
+    问答系统类
+    '''
     def __init__(self):
         #self.classifier = QuestionClassifier()
         self.classifier = question_ays()
@@ -15,12 +19,13 @@ class ChatBotGraph:
         self.searcher = AnswerSearcher()
 
     def chat_main(self, sent):
-        answer = '您的问题我还不能理解，请换个问法'
+        answer = '抱歉，您的问题暂时没有找到答案，我会将您的问题记录下来。'
         res_classify = self.classifier.analysis(sent)
-        print(res_classify)
+        # print(res_classify)
         if not res_classify:
             return answer
         res_sql = self.parser.parser_main(res_classify)
+        print(res_sql)
         final_answers = self.searcher.search_main(res_sql)
         if not final_answers:
             return answer
@@ -30,11 +35,11 @@ class ChatBotGraph:
 if __name__ == '__main__':
     handler = ChatBotGraph()
     question= '##'
-    print('您好，我是医疗聊天机器人李雯φ(゜▽゜*)♪，请问您想了解什么，希望我的回答可以帮到您！')
+    print('您好，我是小艾医生，请问您哪里不舒服？希望我的回答可以帮到您！')
     while(question!="" and question!=" "):
         question = input('用户:')
         if question == "quit" or question=="" or question == " ":break
         answer = handler.chat_main(question)
-        print('李雯:', answer)
+        print('小艾医生:', answer)
     print("再见！")
 

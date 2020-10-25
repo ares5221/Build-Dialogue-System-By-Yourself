@@ -11,7 +11,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/src_code$asr_raw.coverage" NAME="asr_raw Coverage Results" MODIFIED="1595165119977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chap02/asr-demo" />
     <SUITE FILE_PATH="coverage/src_code$question_template.coverage" NAME="question_template Coverage Results" MODIFIED="1603018449996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chap06/movie_qa_with_KG/movie_QA_with_KQ" />
-    <SUITE FILE_PATH="coverage/src_code$chatbot_graph.coverage" NAME="chatbot_graph Coverage Results" MODIFIED="1603119175963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chap07/Medical-KBQA" />
+    <SUITE FILE_PATH="coverage/src_code$chatbot_graph.coverage" NAME="chatbot_graph Coverage Results" MODIFIED="1603644414854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chap07/Medical-KBQA" />
     <SUITE FILE_PATH="coverage/src_code$text_pos_tagging.coverage" NAME="text_pos_tagging Coverage Results" MODIFIED="1603035017873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chap06/Movie-KBQA/src" />
     <SUITE FILE_PATH="coverage/src_code$tf_idf.coverage" NAME="tf-idf Coverage Results" MODIFIED="1596898554734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chap03" />
     <SUITE FILE_PATH="coverage/src_code$edit_distance.coverage" NAME="edit_distance Coverage Results" MODIFIED="1595842017423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chap03" />
@@ -21,6 +21,7 @@
     <SUITE FILE_PATH="coverage/src_code$query.coverage" NAME="query Coverage Results" MODIFIED="1603018445723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chap06/movie_qa_with_KG/movie_QA_with_KQ" />
     <SUITE FILE_PATH="coverage/src_code$question_preprocess.coverage" NAME="question_preprocess Coverage Results" MODIFIED="1603025568145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chap06/Movie-KBQA/src" />
     <SUITE FILE_PATH="coverage/src_code$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1603097199947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chap07" />
+    <SUITE FILE_PATH="coverage/src_code$question_analysis.coverage" NAME="question_analysis Coverage Results" MODIFIED="1603616942591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chap07/Medical-KBQA" />
     <SUITE FILE_PATH="coverage/src_code$question_classification.coverage" NAME="question_classification Coverage Results" MODIFIED="1600135432446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chap06/Movie-KBQA/src" />
     <SUITE FILE_PATH="coverage/code$intelligent_service.coverage" NAME="intelligent_service Coverage Results" MODIFIED="1593084060452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chap04/Intelligent-Service/src" />
     <SUITE FILE_PATH="coverage/src_code$iat_ws_python3.coverage" NAME="iat_ws_python3 Coverage Results" MODIFIED="1595163885693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chap02/ifey-asr" />
@@ -37,26 +38,19 @@
     <SUITE FILE_PATH="coverage/src_code$asr_json.coverage" NAME="asr_json Coverage Results" MODIFIED="1595163906697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chap02/asr-demo" />
     <SUITE FILE_PATH="coverage/src_code$cal_ngram.coverage" NAME="cal_ngram Coverage Results" MODIFIED="1596904466639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chap03" />
     <SUITE FILE_PATH="coverage/src_code$query_template.coverage" NAME="query_template Coverage Results" MODIFIED="1603018465647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chap06/Movie-KBQA/src" />
+    <SUITE FILE_PATH="coverage/src_code$nerApp.coverage" NAME="nerApp Coverage Results" MODIFIED="1603641183213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chap07/Medical-KBQA" />
     <SUITE FILE_PATH="coverage/src_code$asr_demo.coverage" NAME="asr_demo Coverage Results" MODIFIED="1595216345715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chap02/asr-demo" />
     <SUITE FILE_PATH="coverage/src_code$intelligent_service.coverage" NAME="intelligent_service Coverage Results" MODIFIED="1594017061788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chap04/Intelligent-Service/src" />
+    <SUITE FILE_PATH="coverage/src_code$classifyApp.coverage" NAME="classifyApp Coverage Results" MODIFIED="1603643045953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chap07/Medical-KBQA" />
     <SUITE FILE_PATH="coverage/src_code$tts_demo.coverage" NAME="tts_demo Coverage Results" MODIFIED="1595216527091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chap02/tts-demo" />
   </component>
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/chap07/Medical-KBQA/build_medicalgraph.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="209" column="45" lean-forward="true" selection-start-line="209" selection-start-column="45" selection-end-line="209" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chap07/Medical-KBQA/chatbot_graph.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+            <state relative-caret-position="79">
+              <caret line="28" column="19" selection-end-line="45" />
               <folding>
                 <element signature="e#53#82#0" expanded="true" />
               </folding>
@@ -65,19 +59,29 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chap07/Medical-KBQA/answer_search.py">
+        <entry file="file://$PROJECT_DIR$/chap07/Medical-KBQA/question_parser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-304">
-              <caret line="44" column="46" selection-start-line="44" selection-start-column="46" selection-end-line="44" selection-end-column="46" />
+            <state relative-caret-position="76">
+              <caret line="172" column="36" selection-start-line="172" selection-start-column="36" selection-end-line="172" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chap07/Medical-KBQA/data/medical.json">
-          <provider selected="true" editor-type-id="LargeFileEditor">
-            <state relative-caret-position="208">
-              <caret line="22" column="56" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="56" />
+        <entry file="file://$PROJECT_DIR$/chap07/Medical-KBQA/answer_search.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="356">
+              <caret line="146" lean-forward="true" selection-end-line="146" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chap07/Medical-KBQA/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-1653" />
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -118,6 +122,7 @@
       <find>q_template_dict</find>
       <find>read_nodes</find>
       <find>7687</find>
+      <find>CrimeSpider</find>
     </findStrings>
     <replaceStrings>
       <replace>str2</replace>
@@ -130,10 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/chap04/Intelligent-Service/preprocess_data/preprocess.py" />
-        <option value="$PROJECT_DIR$/chap04/Intelligent-Service/preprocess_data/generate_ques_bert_vector.py" />
-        <option value="$PROJECT_DIR$/chap04/Intelligent-Service/src/intelligent_service.py" />
-        <option value="$PROJECT_DIR$/chap02/ifey-asr/iat_ws_python3.py" />
         <option value="$PROJECT_DIR$/chap02/asr-demo/asr_raw.py" />
         <option value="$PROJECT_DIR$/chap02/asr-demo/asr_json.py" />
         <option value="$PROJECT_DIR$/chap02/tts-demo/tts.py" />
@@ -176,16 +177,23 @@
         <option value="$PROJECT_DIR$/chap06/Movie-KBQA/src/question_preprocess.py" />
         <option value="$PROJECT_DIR$/chap06/requirements.txt" />
         <option value="$PROJECT_DIR$/chap07/test.py" />
-        <option value="$PROJECT_DIR$/chap07/Medical-KBQA/answer_search.py" />
         <option value="$PROJECT_DIR$/chap07/Medical-KBQA/build_medicalgraph.py" />
+        <option value="$PROJECT_DIR$/chap07/Medical-KBQA/question_analysis.py" />
+        <option value="$PROJECT_DIR$/chap07/Medical-KBQA/classifyApp.py" />
+        <option value="$PROJECT_DIR$/chap07/Medical-KBQA/nerApp.py" />
+        <option value="$PROJECT_DIR$/chap07/Medical-KBQA/question_parser.py" />
+        <option value="$PROJECT_DIR$/chap07/Medical-KBQA/answer_search.py" />
+        <option value="$PROJECT_DIR$/chap07/Medical-KBQA/prepare_data/build_data.py" />
+        <option value="$PROJECT_DIR$/chap07/Medical-KBQA/prepare_data/data_spider.py" />
+        <option value="$PROJECT_DIR$/chap07/Medical-KBQA/chatbot_graph.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="9" />
-    <option name="y" value="11" />
-    <option name="width" value="1856" />
-    <option name="height" value="1076" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1874" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -215,6 +223,13 @@
               <item name="src_code" type="462c0819:PsiDirectoryNode" />
               <item name="chap07" type="462c0819:PsiDirectoryNode" />
               <item name="Medical-KBQA" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src_code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src_code" type="462c0819:PsiDirectoryNode" />
+              <item name="chap07" type="462c0819:PsiDirectoryNode" />
+              <item name="Medical-KBQA" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -257,7 +272,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.chatbot_graph">
+  <component name="RunManager" selected="Python.classifyApp">
     <configuration name="build_medicalgraph" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -302,7 +317,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main_service" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="classifyApp" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -310,12 +325,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap06/Movie-KBQA/src" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap07/Medical-KBQA" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap06/Movie-KBQA/src/main_service.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap07/Medical-KBQA/classifyApp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -324,7 +339,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="nerApp" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -332,12 +347,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap07" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap07/Medical-KBQA" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap07/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap07/Medical-KBQA/nerApp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -346,7 +361,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="text_pos_tagging" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="question_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -354,12 +369,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap06/Movie-KBQA/src" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap07/Medical-KBQA" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap06/Movie-KBQA/src/text_pos_tagging.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap07/Medical-KBQA/question_analysis.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -369,19 +384,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.text_pos_tagging" />
-      <item itemvalue="Python.main_service" />
       <item itemvalue="Python.build_medicalgraph" />
-      <item itemvalue="Python.test (1)" />
       <item itemvalue="Python.chatbot_graph" />
+      <item itemvalue="Python.question_analysis" />
+      <item itemvalue="Python.nerApp" />
+      <item itemvalue="Python.classifyApp" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.chatbot_graph" />
+        <item itemvalue="Python.classifyApp" />
+        <item itemvalue="Python.nerApp" />
+        <item itemvalue="Python.question_analysis" />
         <item itemvalue="Python.build_medicalgraph" />
-        <item itemvalue="Python.test (1)" />
-        <item itemvalue="Python.main_service" />
-        <item itemvalue="Python.text_pos_tagging" />
       </list>
     </recent_temporary>
   </component>
@@ -406,12 +421,12 @@
       <workItem from="1601254259186" duration="1196000" />
       <workItem from="1602204384484" duration="591000" />
       <workItem from="1602463536495" duration="599000" />
-      <workItem from="1602723216885" duration="39369000" />
+      <workItem from="1602723216885" duration="58790000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145665000" />
+    <option name="totallyTimeSpent" value="165086000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -424,14 +439,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1318" height="784" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25516692" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19395867" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3276923" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49944875" visible="true" weight="0.24923077" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49944875" visible="true" weight="0.5892308" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39873418" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -474,61 +488,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/chap03/similarity_by_char/jaccard.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="22" column="27" selection-end-line="34" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chap03/similarity_by_char/cal_ngram.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chap03/similarity_by_char/BM25.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="22" />
-          <folding>
-            <element signature="e#45#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chap04/Intelligent-Service/src/intelligent_service.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chap06/movie_qa_with_KG/movie_QA_with_KQ/data/question/【1】上映.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chap06/movie_qa_with_KG/movie_QA_with_KQ/data/question/vocabulary.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3021" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chap06/movie_qa_with_KG/movie_QA_with_KQ/templates/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chap06/movie_qa_with_KG/movie_QA_with_KQ/data/userdict3.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1197" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chap06/movie_qa_with_KG/movie_QA_with_KQ/data/question/【2】风格.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/chap06/Movie-KBQA/data/import/genre.csv">
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
@@ -778,34 +737,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chap07/Medical-KBQA/answer_search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-304">
-          <caret line="44" column="46" selection-start-line="44" selection-start-column="46" selection-end-line="44" selection-end-column="46" />
+    <entry file="file://$PROJECT_DIR$/chap07/Medical-KBQA/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-1653" />
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chap07/Medical-KBQA/chatbot_graph.py">
+    <entry file="file://$PROJECT_DIR$/chap07/Medical-KBQA/prepare_data/max_cut.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-          <folding>
-            <element signature="e#53#82#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-1601" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chap07/Medical-KBQA/prepare_data/data_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chap07/Medical-KBQA/data/medical.json">
       <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="208">
-          <caret line="22" column="56" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="56" />
+        <state relative-caret-position="19">
+          <caret line="1" column="23" lean-forward="true" selection-start-line="1" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chap07/Medical-KBQA/prepare_data/build_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chap07/Medical-KBQA/build_medicalgraph.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="209" column="45" lean-forward="true" selection-start-line="209" selection-start-column="45" selection-end-line="209" selection-end-column="45" />
+        <state relative-caret-position="-5180">
+          <caret selection-end-line="302" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chap07/Medical-KBQA/data_ai/nerData/train_data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-741" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chap07/Medical-KBQA/question_analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-665">
+          <caret line="46" column="26" selection-end-line="100" />
+          <folding>
+            <element signature="e#18#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chap07/Medical-KBQA/nerApp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="105" selection-end-line="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chap07/Medical-KBQA/classifyApp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="87" column="29" selection-start-line="87" selection-start-column="29" selection-end-line="87" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chap07/Medical-KBQA/question_parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="172" column="36" selection-start-line="172" selection-start-column="36" selection-end-line="172" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chap07/Medical-KBQA/answer_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="146" lean-forward="true" selection-end-line="146" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chap07/Medical-KBQA/chatbot_graph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="28" column="19" selection-end-line="45" />
+          <folding>
+            <element signature="e#53#82#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

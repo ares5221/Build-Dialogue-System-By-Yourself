@@ -1,19 +1,26 @@
-# coding: utf-8
+#!/usr/bin/env python
+# _*_ coding:utf-8 _*_
 
 from py2neo import Graph
 
+
 class AnswerSearcher:
+    '''
+    查询答案类
+    '''
     def __init__(self):
-        # self.g = Graph(
-        #     host="172.24.30.243",
-        #     http_port=7474,
-        #     user="neo4j",
-        #     password="12345")
+        # 连接Neo4j数据库
         self.g = Graph("bolt://localhost:11008")
+        # 查询数据条数限制
         self.num_limit = 20
 
-    '''执行cypher查询，并返回相应结果'''
+
     def search_main(self, sqls):
+        '''
+        执行cypher查询，并返回相应结果
+        :param sqls:
+        :return:
+        '''
         final_answers = []
         for sql_ in sqls:
             question_type = sql_['question_type']
@@ -27,8 +34,14 @@ class AnswerSearcher:
                 final_answers.append(final_answer)
         return final_answers
 
-    '''根据对应的qustion_type，调用相应的回复模板'''
+
     def answer_prettify(self, question_type, answers):
+        '''
+        根据相应的问题类型，采用相应的答案生成模板
+        :param question_type:
+        :param answers:
+        :return:
+        '''
         final_answer = []
         if not answers:
             return ''
