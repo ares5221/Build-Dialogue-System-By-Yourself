@@ -11,7 +11,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/src_code$asr_raw.coverage" NAME="asr_raw Coverage Results" MODIFIED="1595165119977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chap02/asr-demo" />
     <SUITE FILE_PATH="coverage/src_code$question_template.coverage" NAME="question_template Coverage Results" MODIFIED="1603018449996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chap06/movie_qa_with_KG/movie_QA_with_KQ" />
-    <SUITE FILE_PATH="coverage/src_code$chatbot_graph.coverage" NAME="chatbot_graph Coverage Results" MODIFIED="1603644414854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chap07/Medical-KBQA" />
+    <SUITE FILE_PATH="coverage/src_code$chatbot_graph.coverage" NAME="chatbot_graph Coverage Results" MODIFIED="1604988033513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chap07/Medical-KBQA" />
     <SUITE FILE_PATH="coverage/src_code$text_pos_tagging.coverage" NAME="text_pos_tagging Coverage Results" MODIFIED="1603035017873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chap06/Movie-KBQA/src" />
     <SUITE FILE_PATH="coverage/src_code$tf_idf.coverage" NAME="tf-idf Coverage Results" MODIFIED="1596898554734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chap03" />
     <SUITE FILE_PATH="coverage/src_code$edit_distance.coverage" NAME="edit_distance Coverage Results" MODIFIED="1595842017423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chap03" />
@@ -45,43 +45,12 @@
     <SUITE FILE_PATH="coverage/src_code$tts_demo.coverage" NAME="tts_demo Coverage Results" MODIFIED="1595216527091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chap02/tts-demo" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chap07/Medical-KBQA/chatbot_graph.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="28" column="19" selection-end-line="45" />
-              <folding>
-                <element signature="e#53#82#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chap07/Medical-KBQA/question_parser.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="172" column="36" selection-start-line="172" selection-start-column="36" selection-end-line="172" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chap07/Medical-KBQA/answer_search.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="146" lean-forward="true" selection-end-line="146" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chap07/Medical-KBQA/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-1653" />
-              <second_editor />
+            <state relative-caret-position="448">
+              <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -190,9 +159,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="y" value="1" />
-    <option name="width" value="1218" />
-    <option name="height" value="766" />
+    <option name="x" value="-7" />
+    <option name="y" value="2" />
+    <option name="width" value="1232" />
+    <option name="height" value="773" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -200,6 +170,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -207,34 +178,10 @@
               <item name="src_code" type="b2602c69:ProjectViewProjectNode" />
               <item name="src_code" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="src_code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="src_code" type="462c0819:PsiDirectoryNode" />
-              <item name="chap04" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="src_code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="src_code" type="462c0819:PsiDirectoryNode" />
-              <item name="chap07" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="src_code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="src_code" type="462c0819:PsiDirectoryNode" />
-              <item name="chap07" type="462c0819:PsiDirectoryNode" />
-              <item name="Medical-KBQA" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="src_code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="src_code" type="462c0819:PsiDirectoryNode" />
-              <item name="chap07" type="462c0819:PsiDirectoryNode" />
-              <item name="Medical-KBQA" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -245,18 +192,18 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\pythonLearningWorkSpace\Build-Dialogue-System-By-Yourself\src_code\chap06\Movie-KBQA\src" />
-      <recent name="G:\pythonLearningWorkSpace\Build-Dialogue-System-By-Yourself\src_code\chap06\Movie-KBQA" />
-      <recent name="G:\pythonLearningWorkSpace\Build-Dialogue-System-By-Yourself\src_code\chap05" />
-      <recent name="G:\pythonLearningWorkSpace\Build-Dialogue-System-By-Yourself\src_code\chap06" />
-      <recent name="G:\pythonLearningWorkSpace\Build-Dialogue-System-By-Yourself\src_code\chap03\similarity_by_semantic\data" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\pythonLearningWorkSpace\Build-Dialogue-System-By-Yourself\src_code\chap06" />
       <recent name="G:\pythonLearningWorkSpace\Build-Dialogue-System-By-Yourself\src_code\chap03\similarity_by_char" />
       <recent name="G:\pythonLearningWorkSpace\Build-Dialogue-System-By-Yourself\src_code\chap02" />
       <recent name="G:\pythonLearningWorkSpace\Build-Dialogue-System-By-Yourself\src_code\nouse" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\pythonLearningWorkSpace\Build-Dialogue-System-By-Yourself\src_code" />
+      <recent name="G:\pythonLearningWorkSpace\Build-Dialogue-System-By-Yourself\src_code\chap06\Movie-KBQA\src" />
+      <recent name="G:\pythonLearningWorkSpace\Build-Dialogue-System-By-Yourself\src_code\chap06\Movie-KBQA" />
+      <recent name="G:\pythonLearningWorkSpace\Build-Dialogue-System-By-Yourself\src_code\chap05" />
+      <recent name="G:\pythonLearningWorkSpace\Build-Dialogue-System-By-Yourself\src_code\chap06" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -271,7 +218,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.classifyApp">
+  <component name="RunManager" selected="Python.chatbot_graph">
     <configuration name="build_medicalgraph" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -421,11 +368,17 @@
       <workItem from="1602204384484" duration="591000" />
       <workItem from="1602463536495" duration="599000" />
       <workItem from="1602723216885" duration="59603000" />
+      <workItem from="1603867362690" duration="587000" />
+      <workItem from="1603932436723" duration="806000" />
+      <workItem from="1604278310586" duration="602000" />
+      <workItem from="1604883183911" duration="7100000" />
+      <workItem from="1605085288648" duration="1215000" />
+      <workItem from="1605429942797" duration="1214000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165899000" />
+    <option name="totallyTimeSpent" value="177423000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -438,13 +391,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1318" height="784" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19395867" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23767886" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3276923" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49944875" visible="true" weight="0.5892308" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49944875" visible="true" weight="0.4043659" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39873418" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -487,24 +441,10 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/chap06/Movie-KBQA/data/import/genre.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/chap06/Movie-KBQA/data/vocabulary.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/chap06/movie_qa_with_KG/movie_QA_with_KQ/question_classification.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-228">
-          <folding>
-            <element signature="e#155#174#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/chap06/movie_qa_with_KG/movie_QA_with_KQ/question_classification.py" />
     <entry file="file://$PROJECT_DIR$/chap06/Movie-KBQA/src/query.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -526,66 +466,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chap06/movie_qa_with_KG/movie_QA_with_KQ/preprocess_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="617">
-          <caret line="107" column="21" selection-start-line="107" selection-start-column="15" selection-end-line="107" selection-end-column="21" />
-          <folding>
-            <element signature="e#189#208#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chap06/movie_qa_with_KG/movie_QA_with_KQ/data/question/【0】评分.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chap06/movie_qa_with_KG/movie_QA_with_KQ/data/question/【5】演员简介.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chap06/movie_qa_with_KG/movie_QA_with_KQ/code.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#137#147#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chap06/movie_qa_with_KG/movie_QA_with_KQ/query.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chap06/movie_qa_with_KG/movie_QA_with_KQ/question_template.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="922">
-          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chap06/movie_qa_with_KG/movie_QA_with_KQ/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-          <folding>
-            <element signature="e#250#260#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chap06/movie_qa_with_KG/movie_QA_with_KQ/data/question/question_classification.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chap06/movie_qa_with_KG/demo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/chap06/movie_qa_with_KG/movie_QA_with_KQ/preprocess_data.py" />
+    <entry file="file://$PROJECT_DIR$/chap06/movie_qa_with_KG/movie_QA_with_KQ/data/question/【0】评分.txt" />
+    <entry file="file://$PROJECT_DIR$/chap06/movie_qa_with_KG/movie_QA_with_KQ/data/question/【5】演员简介.txt" />
+    <entry file="file://$PROJECT_DIR$/chap06/movie_qa_with_KG/movie_QA_with_KQ/code.py" />
+    <entry file="file://$PROJECT_DIR$/chap06/movie_qa_with_KG/movie_QA_with_KQ/query.py" />
+    <entry file="file://$PROJECT_DIR$/chap06/movie_qa_with_KG/movie_QA_with_KQ/question_template.py" />
+    <entry file="file://$PROJECT_DIR$/chap06/movie_qa_with_KG/movie_QA_with_KQ/test.py" />
+    <entry file="file://$PROJECT_DIR$/chap06/movie_qa_with_KG/movie_QA_with_KQ/data/question/question_classification.txt" />
+    <entry file="file://$PROJECT_DIR$/chap06/movie_qa_with_KG/demo.png" />
     <entry file="file://$PROJECT_DIR$/chap06/Movie-KBQA/src/rule_based_reply.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -688,30 +577,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/py2neo/data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="827" column="8" selection-start-line="827" selection-start-column="8" selection-end-line="827" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/py2neo/database.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="361" selection-start-line="361" selection-end-line="361" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/py2neo/data.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/py2neo/database.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/py2neo/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/py2neo/core.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="540" column="6" selection-start-line="540" selection-start-column="6" selection-end-line="540" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/py2neo/core.py" />
     <entry file="file://$PROJECT_DIR$/chap05/query.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-14">
@@ -733,14 +604,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chap07/Medical-KBQA/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-1653" />
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -806,27 +669,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chap07/Medical-KBQA/question_parser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="172" column="36" selection-start-line="172" selection-start-column="36" selection-end-line="172" selection-end-column="36" />
+    <entry file="file://$PROJECT_DIR$/chap07/Medical-KBQA/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-855" />
+          <second_editor />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/chap02/tts/tts_demo.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/chap07/Medical-KBQA/answer_search.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="146" lean-forward="true" selection-end-line="146" />
+        <state relative-caret-position="570">
+          <caret line="134" column="110" selection-start-line="134" selection-start-column="110" selection-end-line="134" selection-end-column="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chap07/Medical-KBQA/question_parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="172" column="36" selection-start-line="172" selection-start-column="36" selection-end-line="172" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chap07/Medical-KBQA/chatbot_graph.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="28" column="19" selection-end-line="45" />
-          <folding>
-            <element signature="e#53#82#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="448">
+          <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
         </state>
       </provider>
     </entry>
